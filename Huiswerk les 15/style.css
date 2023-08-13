@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    background-color: lightblue;
+}
+div{
+    background-color: honeydew;
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+}
+button{
+    width: 150px;
+    height: 100px;
+    margin-top: 25px;
+    border-radius: 25px;
+    background-color: chocolate;
+    padding: 5px
+    ;
+}
+button:hover{
+    background-color: blueviolet;
+}
+header{
+    background-color: bisque;
+    height: 150px;
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+footer{
+    background-color: bisque;
+    height: 20px;
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+}
+table{
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+#tableheader{
+    background-color: turquoise;
+}
+#benaming{
+    background-color: violet;
+}
+input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow: inset 2px 2px 2px purple;
+    background-color: azure;
+    border-radius: 5px;
+}
+textarea{
+    height: 100px;
+    padding: 5px;
+}
+#btnverzend{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: inset 2px 2px 2px purple;
+    background-color: azure;
+    border-radius: 5px;
+}
+#btnverzend:active{
+    background-color: salmon;
+}
